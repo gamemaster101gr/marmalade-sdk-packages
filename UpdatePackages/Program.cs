@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Text;
 
@@ -33,11 +34,26 @@ namespace UpdatePackages
                     }
                     if (line.StartsWith("FileName:", StringComparison.InvariantCultureIgnoreCase))
                     {
-                        
+                        var fn = line.Split(new char[]{':'},2)[1];
+                        fn = fn.Trim();
+                        var u = new Uri(uri, fn);
+                        line = "FileName: " + u;
                     }
                     package.Add(line);
                 }
                 AddPackage(package, packages);
+            }
+            using (var s = File.CreateText(@"..\..\..\repo\Packages"))
+            {
+                foreach (var p in packages)
+                {
+                    foreach (var line in p)
+                    {
+                        s.WriteLine(line);
+                    }
+                    s.WriteLine("");
+                }
+                s.Close();
             }
         }
 

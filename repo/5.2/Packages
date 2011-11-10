@@ -1,0 +1,42 @@
+Package-Format: 2
+Package: simplemenu
+Version: 1.0.0
+Revision: 2
+Maintainer: Game Master <gamemaster@101gr.com>
+Description: |
+  Very simple menu
+Type: platform-independant
+Built-With: 5.1.3
+FileName: https://raw.github.com/marmalade/simplemenu/master/simplemenu_1.0.0-2.mdev
+Size: 110820
+MD5Sum: 5a4918b1858a1d8473d8bf5d0c1607ee
+
+Source: simplemenu
+Version: 1.0.0
+Revision: 2
+Type: platform-independant
+FileName: https://raw.github.com/marmalade/simplemenu/master/simplemenu_1.0.0-2.msrc
+Size: 112344
+MD5Sum: c772af9f2f07857b52e35acdb29382f4
+
+Package-Format: 2
+Package: freetype
+Version: 1.0.0
+Revision: 4
+Maintainer: Game Master <gamemaster@101gr.com>
+Description: |
+  FreeType
+Type: platform-independant
+Built-With: 5.1.7
+FileName: https://raw.github.com/marmalade/Freetype/master/freetype_1.0.0-4.mdev
+Size: 1387813
+MD5Sum: de88c79934561dcc108ef5681f67d3c6
+
+Source: freetype
+Version: 1.0.0
+Revision: 4
+Type: platform-independant
+FileName: https://raw.github.com/marmalade/Freetype/master/freetype_1.0.0-4.msrc
+Size: 1390156
+MD5Sum: f3da9ea59c38daf20be7da3d2ea18382
+
