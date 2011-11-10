@@ -72,8 +72,11 @@ namespace UpdatePackages
         {
             return new[]
                        {
-                           "https://raw.github.com/marmalade/simplemenu/master/Packages",
-                           "https://raw.github.com/marmalade/Freetype/master/Packages",
+                           "https://raw.github.com/marmalade/pugixml/master/Packages",
+"https://raw.github.com/marmalade/Freetype/master/Packages",
+"https://raw.github.com/marmalade/dpi/master/Packages",
+"https://raw.github.com/gamemaster101gr/libcurl/master/Packages",
+
                        };
         }
     }

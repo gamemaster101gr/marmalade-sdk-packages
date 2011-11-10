@@ -1,23 +1,24 @@
 Package-Format: 2
-Package: simplemenu
+Package: pugixml
 Version: 1.0.0
-Revision: 2
+Revision: 3
 Maintainer: Game Master <gamemaster@101gr.com>
 Description: |
-  Very simple menu
+  pugixml is better than tinyxml!
+  Copyright (C) 2006-2010, by Arseny Kapoulkine (arseny.kapoulkine@gmail.com)
+Built-With: 5.0.1
 Type: platform-independant
-Built-With: 5.1.3
-FileName: https://raw.github.com/marmalade/simplemenu/master/simplemenu_1.0.0-2.mdev
-Size: 110820
-MD5Sum: 5a4918b1858a1d8473d8bf5d0c1607ee
+FileName: https://raw.github.com/marmalade/pugixml/master/pugixml_1.0.0-3.mdev
+Size: 64896
+MD5Sum: f20b4840dbf39b19406fb8bbf5c96098
 
-Source: simplemenu
+Source: pugixml
 Version: 1.0.0
-Revision: 2
+Revision: 3
 Type: platform-independant
-FileName: https://raw.github.com/marmalade/simplemenu/master/simplemenu_1.0.0-2.msrc
-Size: 112344
-MD5Sum: c772af9f2f07857b52e35acdb29382f4
+FileName: https://raw.github.com/marmalade/pugixml/master/pugixml_1.0.0-3.msrc
+Size: 65041
+MD5Sum: 1d7105d48d5b9d024e3b04f035dad98c
 
 Package-Format: 2
 Package: freetype
@@ -39,4 +40,46 @@ Type: platform-independant
 FileName: https://raw.github.com/marmalade/Freetype/master/freetype_1.0.0-4.msrc
 Size: 1390156
 MD5Sum: f3da9ea59c38daf20be7da3d2ea18382
+
+Package-Format: 2
+Package: dpi
+Version: 1.0.0
+Revision: 7
+Maintainer: Game Master <gamemaster@101gr.com>
+Description: |
+  DPI module allows to detect device DPI
+Type: platform-independant
+Built-With: 5.1.1
+FileName: https://raw.github.com/marmalade/dpi/master/dpi_1.0.0-7.mdev
+Size: 917462
+MD5Sum: 73cae55bc58e54e5af9fae539bb07f1a
+
+Source: dpi
+Version: 1.0.0
+Revision: 7
+Type: platform-independant
+FileName: https://raw.github.com/marmalade/dpi/master/dpi_1.0.0-7.msrc
+Size: 917276
+MD5Sum: 7efa1141737a6af030001aae27ef7391
+
+Package-Format: 2
+Package: libcurl
+Version: 7.21.3.beta4
+Revision: 4
+Maintainer: Game Master <gamemaster@101gr.com>
+Description: |
+  libcurl
+Type: platform-independant
+Built-With: 5.1.1
+FileName: https://raw.github.com/gamemaster101gr/libcurl/master/libcurl_7.21.3.beta4-4.mdev
+Size: 3537601
+MD5Sum: a64d4ee47b25a836de6f84735b1d94c6
+
+Source: libcurl
+Version: 7.21.3.beta4
+Revision: 4
+Type: platform-independant
+FileName: https://raw.github.com/gamemaster101gr/libcurl/master/libcurl_7.21.3.beta4-4.msrc
+Size: 3561145
+MD5Sum: 83ae29b122b7ff23724d8adc51ddde56
 
