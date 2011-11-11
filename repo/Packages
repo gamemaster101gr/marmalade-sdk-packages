@@ -8,7 +8,7 @@ Description: |
   Copyright (C) 2006-2010, by Arseny Kapoulkine (arseny.kapoulkine@gmail.com)
 Built-With: 5.0.1
 Type: platform-independant
-FileName: https://raw.github.com/marmalade/pugixml/master/pugixml_1.0.0-3.mdev
+Filename: pugixml_1.0.0-3.mdev
 Size: 64896
 MD5Sum: f20b4840dbf39b19406fb8bbf5c96098
 
@@ -16,7 +16,7 @@ Source: pugixml
 Version: 1.0.0
 Revision: 3
 Type: platform-independant
-FileName: https://raw.github.com/marmalade/pugixml/master/pugixml_1.0.0-3.msrc
+Filename: pugixml_1.0.0-3.msrc
 Size: 65041
 MD5Sum: 1d7105d48d5b9d024e3b04f035dad98c
 
@@ -29,7 +29,7 @@ Description: |
   FreeType
 Type: platform-independant
 Built-With: 5.1.7
-FileName: https://raw.github.com/marmalade/Freetype/master/freetype_1.0.0-4.mdev
+Filename: freetype_1.0.0-4.mdev
 Size: 1387813
 MD5Sum: de88c79934561dcc108ef5681f67d3c6
 
@@ -37,7 +37,7 @@ Source: freetype
 Version: 1.0.0
 Revision: 4
 Type: platform-independant
-FileName: https://raw.github.com/marmalade/Freetype/master/freetype_1.0.0-4.msrc
+Filename: freetype_1.0.0-4.msrc
 Size: 1390156
 MD5Sum: f3da9ea59c38daf20be7da3d2ea18382
 
@@ -50,7 +50,7 @@ Description: |
   DPI module allows to detect device DPI
 Type: platform-independant
 Built-With: 5.1.1
-FileName: https://raw.github.com/marmalade/dpi/master/dpi_1.0.0-7.mdev
+Filename: dpi_1.0.0-7.mdev
 Size: 917462
 MD5Sum: 73cae55bc58e54e5af9fae539bb07f1a
 
@@ -58,7 +58,7 @@ Source: dpi
 Version: 1.0.0
 Revision: 7
 Type: platform-independant
-FileName: https://raw.github.com/marmalade/dpi/master/dpi_1.0.0-7.msrc
+Filename: dpi_1.0.0-7.msrc
 Size: 917276
 MD5Sum: 7efa1141737a6af030001aae27ef7391
 
@@ -71,7 +71,7 @@ Description: |
   libcurl
 Type: platform-independant
 Built-With: 5.1.1
-FileName: https://raw.github.com/gamemaster101gr/libcurl/master/libcurl_7.21.3.beta4-4.mdev
+Filename: libcurl_7.21.3.beta4-4.mdev
 Size: 3537601
 MD5Sum: a64d4ee47b25a836de6f84735b1d94c6
 
@@ -79,7 +79,7 @@ Source: libcurl
 Version: 7.21.3.beta4
 Revision: 4
 Type: platform-independant
-FileName: https://raw.github.com/gamemaster101gr/libcurl/master/libcurl_7.21.3.beta4-4.msrc
+Filename: libcurl_7.21.3.beta4-4.msrc
 Size: 3561145
 MD5Sum: 83ae29b122b7ff23724d8adc51ddde56
 
