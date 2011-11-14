@@ -46,6 +46,7 @@ namespace UpdatePackages
                 }
                 AddPackage(package, packages);
             }
+            bool separate = false;
             using (var s = File.CreateText(GetFilePath("Packages")))
             {
                 s.WriteLine("# Marmalade developer package listing.");
@@ -54,11 +55,14 @@ namespace UpdatePackages
 
                 foreach (var p in packages)
                 {
+                    if (separate)
+                        s.WriteLine("");
+                    else
+                        separate = true;
                     foreach (var line in p)
                     {
                         s.WriteLine(line);
                     }
-                    s.WriteLine("");
                 }
                 s.Close();
             }
