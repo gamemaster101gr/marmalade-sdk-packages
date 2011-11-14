@@ -1,3 +1,6 @@
+# Marmalade developer package listing.
+# Generted by mdev v0.2.
+# The format of this file is similar but not identical to that used by debian's apt.
 Package-Format: 2
 Package: pugixml
 Version: 1.0.0

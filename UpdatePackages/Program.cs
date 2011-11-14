@@ -37,14 +37,21 @@ namespace UpdatePackages
                         var fn = line.Split(new char[]{':'},2)[1];
                         fn = fn.Trim();
                         var u = new Uri(uri, fn);
-                        line = "FileName: " + u;
+
+                        wc.DownloadFile(u, GetFilePath(fn));
+
+                        //line = "FileName: " + u;
                     }
                     package.Add(line);
                 }
                 AddPackage(package, packages);
             }
-            using (var s = File.CreateText(@"..\..\..\repo\Packages"))
+            using (var s = File.CreateText(GetFilePath("Packages")))
             {
+                s.WriteLine("# Marmalade developer package listing.");
+                s.WriteLine("# Generted by mdev v0.2.");
+                s.WriteLine("# The format of this file is similar but not identical to that used by debian's apt.");
+
                 foreach (var p in packages)
                 {
                     foreach (var line in p)
@@ -55,6 +62,11 @@ namespace UpdatePackages
                 }
                 s.Close();
             }
+        }
+
+        private static string GetFilePath(string s)
+        {
+            return Path.Combine(@"..\..\..\repo",s);
         }
 
         private static void AddPackage(List<string> package, List<List<string>> packages)
